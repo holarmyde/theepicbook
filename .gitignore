@@ -1,2 +1,9 @@
 node_modules
 .DS_Store
+*.pem
+*.key
+.env
+.env.*
+!*.env.example
+ansible/retry_files/
+*.retry
